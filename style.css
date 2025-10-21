@@ -1,26 +1,225 @@
+/* ======== ESTILO GERAL ======== */
 * {
     margin: 0;
     padding: 0;
-    font-family:'Times New Roman', Times, serif;
-    list-style: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
+body {
+    background-color: #f8f9fb;
+    color: #222;
+}
+
+/* ======== HEADER ======== */
 header {
-    background: linear-gradient(135deg, #ffffff, #424242);
+    background: #0d3b66;
+    color: #fff;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+header .leao img {
+    height: 55px;
+}
+
+.aguia {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.aguia a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.aguia a:hover {
+    text-decoration: underline;
+}
+
+/* ======== HERO ======== */
+.tigre {
+    background: #0d3b66;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+.tigre h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.tigre p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.tigre .lobo {
+    background-color: #f4d35e;
+    color: #0d3b66;
+    padding: 0.6rem 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* ======== SEÇÕES ======== */
+section {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 1.8rem;
+    color: #0d3b66;
+    margin-bottom: 1.5rem;
+}
+
+/* ======== SOBRE ======== */
+.gato p {
+    max-width: 700px;
+    margin: 0 auto 2rem;
+    line-height: 1.5;
+}
+
+.urso {
+    display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    align-items: center; 
-    justify-content: space-around;
-    padding: 2rem 3rem;
-    font-size: 1.25rem;
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 100;
+    gap: 1.5rem;
 }
 
-.logo{
-    width:8rem;
-    height: auto;
+.urso div {
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 230px;
 }
 
+/* ======== SERVIÇOS ======== */
+.cavalo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.lince {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 260px;
+    padding: 1.5rem;
+}
+
+.lince i {
+    font-size: 2rem;
+    color: #0d3b66;
+    margin-bottom: 0.8rem;
+}
+
+/* ======== DIFERENCIAIS ======== */
+.elefante {
+    list-style: none;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.elefante li {
+    margin: 0.6rem 0;
+}
+
+/* ======== RESULTADOS ======== */
+.falcao {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.falcao div {
+    background: #0d3b66;
+    color: #fff;
+    padding: 1.5rem;
+    border-radius: 6px;
+    width: 160px;
+}
+
+.falcao h3 {
+    color: #f4d35e;
+}
+
+/* ======== DEPOIMENTOS ======== */
+.corvo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.raposa {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 1rem;
+    width: 280px;
+    font-style: italic;
+}
+
+.raposa span {
+    display: block;
+    margin-top: 0.8rem;
+    font-weight: 600;
+    color: #0d3b66;
+}
+
+/* ======== CONTATO ======== */
+.panda {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    max-width: 450px;
+    margin: 0 auto 2rem;
+}
+
+.panda input,
+.panda textarea {
+    padding: 0.7rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.panda button {
+    background-color: #0d3b66;
+    color: #fff;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.panda button:hover {
+    background-color: #0b335a;
+}
+
+.macaco p {
+    margin: 0.4rem 0;
+}
+
+/* ======== FOOTER ======== */
+footer {
+    background: #0d3b66;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
