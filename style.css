@@ -224,3 +224,16 @@ footer {
     padding: 1rem;
     font-size: 0.9rem;
 }
+
+@media (max-width: 500px) {
+    .section-01 {
+      background-image: url("IMG/");
+      padding: 8rem;
+    }
+  
+    /* Estamos ocultando o menu para versões mobile */
+    nav {
+      display: none;
+    }
+  }
+  
